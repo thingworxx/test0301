@@ -2246,6 +2246,21 @@
                 </RunTimePermissions>
             </Entity>
             <Entity
+             name="SImulatorGetThing"
+             type="Thing">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
              name="PTC.SimulatorX1.Thing"
              type="Thing">
                 <VisibilityPermissions>
